@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Sept 1939
+  - Dec 1939
+  - Jun 1940
+  - Sept 1940
+  - Jun 1941
+  - Dec 1941
+  - Mar 1942
+  - Dec 1942
+  - Mar 1943
+  - Dec 1943
+  - Mar 1944
+  - Dec 1944
+  - Mar 1945
+  - Jun 1945
+  - Aug 1945
+  - Sept 1945
+  - Oct 1945
   layers:
   - Default
   - TransparentFX
