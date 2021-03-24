@@ -63,16 +63,18 @@ public class RaycastingCrosshair : MonoBehaviour
                 {
                     intel.text = " Country: Germany \n City: Berlin \n Occupation: \n Likelyhood to get caught: High \n Status: \n \n Ever since Germany has gotten their new leader, the people have been riled up. " +
                     "We even got intel recently that something is going on with the Jewish people. This might be worth investigating...";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        report.text = "Spies probably get caught?";
+
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
 
                 else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: Germany \n City: Berlin \n Occupation: \n Likelyhood to get caught: High \n Status: \n \n The belly of the beast. I shouldn't send agents here. It's too risky";
-                }
-
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                 }
             }
 
@@ -84,17 +86,19 @@ public class RaycastingCrosshair : MonoBehaviour
                 {
                     intel.text = " Country: Poland \n City: Warsaw \n Occupation: Poland \n Likelyhood to get caught: Medium \n Status: \n \n We recently got a request for a meeting with some disturbing " +
                         "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something is coming.";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        report.text = "We learn things from the Polish Prime Minister.";
+
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
 
                 else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: Poland \n City: Warsaw \n Occupation: Germany \n Likelyhood to get caught: High \n Status: \n \n Germany invaded here in September. We may be able to gleam " +
                         "some information out here...";
-                }
-
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                 }
             }
 
@@ -106,17 +110,19 @@ public class RaycastingCrosshair : MonoBehaviour
                 {
                     intel.text = " Country: France \n City: Paris \n Occupation: France \n Likelyhood to get caught: Low \n Status: \n \n A meeting request with the French Spies. They are saying it is " +
                         "urgent. We probably shouldn't keep them waiting.";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        report.text = "We learn things from the French Spies.";
+
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
 
                 else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: France \n City: Paris \n Occupation: France \n Likelyhood to get caught: High \n Status: \n \n As we have feared, it seems that we are in the midst of another " +
                         "World War...";
-                }
-
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                 }
             }
 
