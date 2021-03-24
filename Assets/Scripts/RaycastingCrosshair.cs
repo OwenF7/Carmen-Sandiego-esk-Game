@@ -15,7 +15,7 @@ public class RaycastingCrosshair : MonoBehaviour
     public GameObject informationBox;
     public TextMeshProUGUI intel;
 
-    public GameObject reportBox;
+    public GameObject reportBox; 
     public TextMeshProUGUI report;
 
     public GameObject levelLoader; 
@@ -66,7 +66,19 @@ public class RaycastingCrosshair : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        report.text = "Spies probably get caught?";
+                        //High Likelihood to get caught
+
+                        float randValue = Random.value;
+
+                        if (randValue < .75f) // 75% of the time
+                        {
+                            report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                        }
+
+                        else if (randValue < .25f) // 25% of the time
+                        {
+                            report.text = "Spies did not get caught.";
+                        }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                     }
@@ -89,7 +101,19 @@ public class RaycastingCrosshair : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        report.text = "We learn things from the Polish Prime Minister.";
+                        //Medium Likelihood to get caught
+
+                        float randValue = Random.value;
+
+                        if (randValue < .30f) // 30% of the time
+                        {
+                            report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                        }
+
+                        else if (randValue < .70f) // 70% of the time
+                        {
+                            report.text = "Spies did not get caught.";
+                        }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                     }
@@ -113,7 +137,19 @@ public class RaycastingCrosshair : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
-                        report.text = "We learn things from the French Spies.";
+                        //Low Likelihood to get caught
+
+                        float randValue = Random.value;
+
+                        if (randValue < .05f) // 5% of the time
+                        {
+                            report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                        }
+
+                        else if (randValue < .95f) // 95% of the time
+                        {
+                            report.text = "Spies did not get caught.";
+                        }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
                     }

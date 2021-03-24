@@ -100104,6 +100104,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201488077}
   m_CullTransparentMesh: 1
+--- !u!114 &1202181251 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7800238591606403641, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+  m_PrefabInstance: {fileID: 5993765911658200888}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1215973736
 GameObject:
   m_ObjectHideFlags: 0
@@ -170308,6 +170319,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 298057330}
     - target: {fileID: 2723844852108420813, guid: f3304e7390a6ef14596b76dc3d5b3d39, type: 3}
+      propertyPath: transitionReport
+      value: 
+      objectReference: {fileID: 1202181251}
+    - target: {fileID: 2723844852108420813, guid: f3304e7390a6ef14596b76dc3d5b3d39, type: 3}
       propertyPath: interactCrosshair
       value: 
       objectReference: {fileID: 739065847}
@@ -170372,6 +170387,10 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4373518787323462284, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_text
+      value: Mission Details
+      objectReference: {fileID: 0}
     - target: {fileID: 5993765911421363580, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -170432,6 +170451,26 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7800238591606403641, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_text
+      value: "  07:30, September 1st, 1939. \\n \\n\tSomething big is coming. Find
+        out just what's happening. We've also had reports of a potential information
+        leak in MI6, and as it's current director of resources, I expect you to send
+        our agents to nearby countries to capture this counter-spy. \\n \\n Stay
+        Vigilant, \\n \\n C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075016828643033628, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8867924
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075016828643033628, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4620528
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075016828643033628, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4308473
+      objectReference: {fileID: 0}
     - target: {fileID: 9022815533750256788, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -170446,6 +170485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7189945805258833960, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7189945805784822986, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
       propertyPath: m_Name
       value: GUI
@@ -170533,6 +170576,14 @@ PrefabInstance:
     - target: {fileID: 7189945805784823030, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189945806083695015, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
+      propertyPath: m_text
+      value: "  07:30, September 1st, 1939. \\n \\n\tSomething big is coming. Find
+        out just what this is. We've also had reports of a potential information
+        leak in MI6, and as it's current director of resources, I expect you to send
+        our agents to nearby countries to capture this counter-spy. Stay on your
+        feet. \\n \\n Stay Vigilant, \\n \\n C"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9187944536376136038, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
