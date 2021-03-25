@@ -57,5 +57,15 @@ public class DateAndSideUpdater : MonoBehaviour
 
             reportText.text = " Press R to toggle Mission Report";
         }
+
+        else if (currentSceneName == "Sept 1 1940")
+        {
+            date.text = " September 1, 1940";
+
+            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+
+            reportText.text = " Press R to toggle Mission Report";
+        }
     }
 }

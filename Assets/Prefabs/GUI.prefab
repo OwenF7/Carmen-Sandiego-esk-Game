@@ -539,6 +539,7 @@ MonoBehaviour:
   gUI: {fileID: 7189945805784822986}
   sides: {fileID: 7189945805084284140}
   date: {fileID: 7189945806311006050}
+  reportText: {fileID: 0}
 --- !u!1 &7189945806311006052
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,8 +575,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -21.133972}
-  m_SizeDelta: {x: 800, y: 42.268}
+  m_AnchoredPosition: {x: 248.69043, y: -21.133972}
+  m_SizeDelta: {x: 497.3809, y: 42.268}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7189945806311006051
 CanvasRenderer:

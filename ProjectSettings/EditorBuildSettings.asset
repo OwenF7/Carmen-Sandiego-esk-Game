@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jun 1 1940.unity
     guid: d2aeb7d3da9074d44beb9b84c862877a
+  - enabled: 1
+    path: Assets/Scenes/Sept 1 1940.unity
+    guid: 39d892fcb72358548ad2f912666f060a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

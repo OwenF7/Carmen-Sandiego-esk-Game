@@ -170342,6 +170342,10 @@ PrefabInstance:
       propertyPath: interactTextObject
       value: 
       objectReference: {fileID: 990708557}
+    - target: {fileID: 2723844852108420813, guid: f3304e7390a6ef14596b76dc3d5b3d39, type: 3}
+      propertyPath: raycastMaxDistance
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 2723844852108420815, guid: f3304e7390a6ef14596b76dc3d5b3d39, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -170661,6 +170665,10 @@ PrefabInstance:
         leak in MI6, and as it's current director of resources, I expect you to send
         our agents to nearby countries to capture this counter-spy. Stay on your
         feet. \\n \\n Stay Vigilant, \\n \\n C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318273701544365962, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -21.133972
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9187944536376136038, guid: 54eb89e9dc3e5504895fa1ffc637b3a5, type: 3}
