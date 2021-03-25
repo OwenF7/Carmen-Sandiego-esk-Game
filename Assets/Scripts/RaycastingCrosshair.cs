@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro; 
+using TMPro;
 
 public class RaycastingCrosshair : MonoBehaviour
 {
@@ -15,10 +15,12 @@ public class RaycastingCrosshair : MonoBehaviour
     public GameObject informationBox;
     public TextMeshProUGUI intel;
 
-    public GameObject reportBox; 
+    public GameObject reportBox;
     public TextMeshProUGUI report;
 
-    public GameObject levelLoader; 
+    //public GameObject levelLoader;
+
+    public string levelloader = "Level Loader";
 
     public float raycastMaxDistance = 5.0f;
 
@@ -27,13 +29,15 @@ public class RaycastingCrosshair : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //GameObject levelLoader = GameObject.FindGameObjectWithTag("LL").gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit; 
+        GameObject levelLoader = GameObject.FindGameObjectWithTag("LL").gameObject;
+
+        RaycastHit hit;
 
         //Raycast, if statements regarding date and interactions
 
@@ -44,6 +48,8 @@ public class RaycastingCrosshair : MonoBehaviour
             interactTextObject.SetActive(true);
 
             informationBox.SetActive(true);
+
+            //Countries to Interact - 
 
             if (hit.transform.name == "Taiwan")
             {
@@ -61,7 +67,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1939")
                 {
-                    intel.text = " Country: Germany \n City: Berlin \n Occupation: \n Likelyhood to get caught: High \n Status: \n \n Ever since Germany has gotten their new leader, the people have been riled up. " +
+                    intel.text = " Country: Germany \n City: Berlin \n Occupation: Germany \n Likelyhood to get caught: High (75%) \n Status: \n \n Ever since Germany has gotten their new leader, the people have been riled up. " +
                     "We even got intel recently that something is going on with the Jewish people. This might be worth investigating...";
 
                     if (Input.GetKeyDown(KeyCode.E))
@@ -72,11 +78,15 @@ public class RaycastingCrosshair : MonoBehaviour
 
                         if (randValue < .75f) // 75% of the time
                         {
+                            Debug.Log("Unsuccessful Report should appear");
+
                             report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
                         }
 
                         else if (randValue < .25f) // 25% of the time
                         {
+                            Debug.Log("Successful Report should appear");
+
                             report.text = "Spies did not get caught.";
                         }
 
@@ -84,10 +94,10 @@ public class RaycastingCrosshair : MonoBehaviour
                     }
                 }
 
-                else if (hit.transform.tag == "Dec 1939")
+                /*else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: Germany \n City: Berlin \n Occupation: \n Likelyhood to get caught: High \n Status: \n \n The belly of the beast. I shouldn't send agents here. It's too risky";
-                }
+                }*/
             }
 
             else if (hit.transform.name == "Poland")
@@ -96,7 +106,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1939")
                 {
-                    intel.text = " Country: Poland \n City: Warsaw \n Occupation: Poland \n Likelyhood to get caught: Medium \n Status: \n \n We recently got a request for a meeting with some disturbing " +
+                    intel.text = " Country: Poland \n City: Warsaw \n Occupation: Poland \n Likelyhood to get caught: Medium (30%) \n Status: \n \n We recently got a request for a meeting with some disturbing " +
                         "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something is coming.";
 
                     if (Input.GetKeyDown(KeyCode.E))
@@ -107,11 +117,15 @@ public class RaycastingCrosshair : MonoBehaviour
 
                         if (randValue < .30f) // 30% of the time
                         {
+                            Debug.Log("Unsuccessful Report should appear");
+
                             report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
                         }
 
                         else if (randValue < .70f) // 70% of the time
                         {
+                            Debug.Log("Successful Report should appear");
+
                             report.text = "Spies did not get caught.";
                         }
 
@@ -119,11 +133,11 @@ public class RaycastingCrosshair : MonoBehaviour
                     }
                 }
 
-                else if (hit.transform.tag == "Dec 1939")
+                /*else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: Poland \n City: Warsaw \n Occupation: Germany \n Likelyhood to get caught: High \n Status: \n \n Germany invaded here in September. We may be able to gleam " +
                         "some information out here...";
-                }
+                }*/
             }
 
             else if (hit.transform.name == "France")
@@ -132,7 +146,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1939")
                 {
-                    intel.text = " Country: France \n City: Paris \n Occupation: France \n Likelyhood to get caught: Low \n Status: \n \n A meeting request with the French Spies. They are saying it is " +
+                    intel.text = " Country: France \n City: Paris \n Occupation: France \n Likelyhood to get caught: Low (5%)\n Status: \n \n A meeting request with the French Spies. They are saying it is " +
                         "urgent. We probably shouldn't keep them waiting.";
 
                     if (Input.GetKeyDown(KeyCode.E))
@@ -143,11 +157,15 @@ public class RaycastingCrosshair : MonoBehaviour
 
                         if (randValue < .05f) // 5% of the time
                         {
+                            Debug.Log("Unsuccessful Report should appear");
+
                             report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
                         }
 
                         else if (randValue < .95f) // 95% of the time
                         {
+                            Debug.Log("Successful Report should appear");
+
                             report.text = "Spies did not get caught.";
                         }
 
@@ -155,20 +173,43 @@ public class RaycastingCrosshair : MonoBehaviour
                     }
                 }
 
-                else if (hit.transform.tag == "Dec 1939")
+                /*else if (hit.transform.tag == "Dec 1939")
                 {
                     intel.text = " Country: France \n City: Paris \n Occupation: France \n Likelyhood to get caught: High \n Status: \n \n As we have feared, it seems that we are in the midst of another " +
                         "World War...";
-                }
+                }*/
             }
 
             else if (hit.transform.name == "Italy")
             {
                 interactText.text = "Press E to send Agents to Italy";
 
-                if (Input.GetKeyDown(KeyCode.E))
+                if (hit.transform.tag == "Dec 1939")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    intel.text = " Country: Italy \n City: Rome \n Occupation: Italy \n Likelyhood to get caught: High \n Status: \n \n Italy has been acting suspicious";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        //High Likelihood to get caught
+
+                        float randValue = Random.value;
+
+                        if (randValue < .75f) // 75% of the time
+                        {
+                            //Debug.Log("Unsuccessful Report should appear");
+
+                            report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                        }
+
+                        else if (randValue < .25f) // 25% of the time
+                        {
+                            //Debug.Log("Successful Report should appear");
+
+                            report.text = "Spies did not get caught.";
+                        }
+
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
             }
 
@@ -176,279 +217,336 @@ public class RaycastingCrosshair : MonoBehaviour
             {
                 interactText.text = "Press E to send Agents to Germany";
 
-                if (Input.GetKeyDown(KeyCode.E))
+                if (hit.transform.tag == "Dec 1939")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    intel.text = " Country: Spain \n City: Madrid \n Occupation: Spain \n Likelyhood to get caught: Low \n Status: \n \n Spain has declared that they will be staying neutral in this " +
+                        "conflict. They have indicated that they want no part in this war.";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        //High Likelihood to get caught
+
+                        float randValue = Random.value;
+
+                        if (randValue < .75f) // 75% of the time
+                        {
+                            //Debug.Log("Unsuccessful Report should appear");
+
+                            report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                        }
+
+                        else if (randValue < .25f) // 25% of the time
+                        {
+                            //Debug.Log("Successful Report should appear");
+
+                            report.text = "Spies did not get caught.";
+                        }
+
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Soviet Union")
-            {
-                interactText.text = "Press E to send Agents to the Soviet Union";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Soviet Union")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to the Soviet Union";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Sweden")
-            {
-                interactText.text = "Press E to send Agents to Sweden";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Sweden")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Sweden";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Finland")
-            {
-                interactText.text = "Press E to send Agents to Finland";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Finland")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Finland";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Great Britain")
-            {
-                interactText.text = "Press E to send Agents to Great Britain";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Great Britain")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Great Britain";
+
+                    if (hit.transform.tag == "Dec 1939")
+                    {
+                        intel.text = " Country: Great Britain \n City: Madrid \n Occupation: Spain \n Likelyhood to get caught: Low \n Status: \n \n Spain has declared that they will be staying neutral in this " +
+                            "conflict. They have indicated that they want no part in this war.";
+
+                        if (Input.GetKeyDown(KeyCode.E))
+                        {
+                            //High Likelihood to get caught
+
+                            float randValue = Random.value;
+
+                            if (randValue < .75f) // 75% of the time
+                            {
+                                //Debug.Log("Unsuccessful Report should appear");
+
+                                report.text = "Your spies were caught, and you lost contact with them. No further information has made it to you...";
+                            }
+
+                            else if (randValue < .25f) // 25% of the time
+                            {
+                                //Debug.Log("Successful Report should appear");
+
+                                report.text = "Spies did not get caught.";
+                            }
+
+                            levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                        }
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Algeria")
-            {
-                interactText.text = "Press E to send Agents to Algeria";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Algeria")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Algeria";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Libya")
-            {
-                interactText.text = "Press E to send Agents to Libya";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Libya")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Libya";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Turkey")
-            {
-                interactText.text = "Press E to send Agents to Turkey";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Turkey")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Turkey";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Egypt")
-            {
-                interactText.text = "Press E to send Agents to Egypt";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Egypt")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Egypt";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Romania")
-            {
-                interactText.text = "Press E to send Agents to Romania";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Romania")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Romania";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Saudi Arabia")
-            {
-                interactText.text = "Press E to send Agents to Saudi Arabia";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Saudi Arabia")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Saudi Arabia";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Ethiopia")
-            {
-                interactText.text = "Press E to send Agents to Ethiopia";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Ethiopia")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Ethiopia";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Sudan")
-            {
-                interactText.text = "Press E to send Agents to Sudan";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Sudan")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Sudan";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Nigeria")
-            {
-                interactText.text = "Press E to send Agents to Nigeria";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Nigeria")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Nigeria";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Democratic Republic of the Congo")
-            {
-                interactText.text = "Press E to send Agents to the Democratic Republic of the Congo";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Democratic Republic of the Congo")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to the Democratic Republic of the Congo";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Yemen")
-            {
-                interactText.text = "Press E to send Agents to Yemen";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Yemen")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Yemen";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Afghanistan")
-            {
-                interactText.text = "Press E to send Agents to Afghanistan";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Afghanistan")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Afghanistan";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "India")
-            {
-                interactText.text = "Press E to send Agents to India";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "India")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to India";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Burma")
-            {
-                interactText.text = "Press E to send Agents to Burma";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Burma")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Burma";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Thailand")
-            {
-                interactText.text = "Press E to send Agents to Thailand";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Thailand")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Thailand";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "French Indochina")
-            {
-                interactText.text = "Press E to send Agents to the French Indochina";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "French Indochina")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to the French Indochina";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Philippines")
-            {
-                interactText.text = "Press E to send Agents to the Philippines";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Philippines")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to the Philippines";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Australia")
-            {
-                interactText.text = "Press E to send Agents to Australia";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Australia")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Australia";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "New Guinea")
-            {
-                interactText.text = "Press E to send Agents to New Guinea";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "New Guinea")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to New Guinea";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Japan")
-            {
-                interactText.text = "Press E to send Agents to Japan";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Japan")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Japan";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Korea")
-            {
-                interactText.text = "Press E to send Agents to Korea";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Korea")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Korea";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "Manchuria")
-            {
-                interactText.text = "Press E to send Agents to Manchuria";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "Manchuria")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to Manchuria";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
                 }
-            }
 
-            else if (hit.transform.name == "China")
-            {
-                interactText.text = "Press E to send Agents to China";
-
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (hit.transform.name == "China")
                 {
-                    levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    interactText.text = "Press E to send Agents to China";
+
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
+                    }
+                }
+
+                else
+                {
+                    crosshair.SetActive(true);
+                    interactCrosshair.SetActive(false);
+                    interactTextObject.SetActive(false);
+
+                    informationBox.SetActive(false);
                 }
             }
 
@@ -460,33 +558,26 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 informationBox.SetActive(false);
             }
-        }
 
-        else
-        {
-            crosshair.SetActive(true);
-            interactCrosshair.SetActive(false);
-            interactTextObject.SetActive(false);
+            //Toggle for Report Box
 
-            informationBox.SetActive(false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            reportReveal = !reportReveal; 
-
-            if (reportReveal)
+            if (Input.GetKeyDown(KeyCode.R))
             {
-                Debug.Log("reportReveal is on!");
+                reportReveal = !reportReveal;
 
-                reportBox.SetActive(true); 
-            }
+                if (reportReveal)
+                {
+                    //Debug.Log("reportReveal is on!");
 
-            else
-            {
-                Debug.Log("reportReveal is off!");
+                    reportBox.SetActive(true);
+                }
 
-                reportBox.SetActive(false);
+                else
+                {
+                    //Debug.Log("reportReveal is off!");
+
+                    reportBox.SetActive(false);
+                }
             }
         }
     }

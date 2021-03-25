@@ -21,6 +21,7 @@ TagManager:
   - Aug 1945
   - Sept 1945
   - Oct 1945
+  - LL
   layers:
   - Default
   - TransparentFX
