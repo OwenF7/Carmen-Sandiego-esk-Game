@@ -33,7 +33,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " September 1st, 1939";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Poland</color> \n <color=#FFFFFF>France</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Poland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " "; 
         }
@@ -42,8 +42,8 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " December 1st, 1939";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -52,8 +52,8 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " June 1st, 1940";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -62,8 +62,8 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " September 1st, 1940";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -72,8 +72,8 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " June 1st, 1941";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -82,8 +82,8 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " December 1st, 1941";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color>" +
+                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -92,8 +92,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " March 1st, 1942";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -102,8 +101,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " December 1st, 1942";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -112,8 +110,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " March 1st, 1943";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -122,8 +119,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " December 1st, 1943";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -132,8 +128,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " March 1st, 1944";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -142,8 +137,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " December 1st, 1944";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -152,8 +146,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " March 1st, 1945";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FF00D9>Finland</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -162,8 +155,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " June 1st, 1945";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#FF0000>Axis Alliance</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -172,8 +164,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " August 15th, 1945";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#EAD830>Japanese Empire</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -182,8 +173,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " September 2nd, 1945";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#EAD830>Japanese Empire</color> \n <color=#0D00FF>Allied Powers</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
@@ -192,8 +182,7 @@ public class DateAndSideUpdater : MonoBehaviour
         {
             date.text = " October 25th, 1945";
 
-            sides.text = " Sides: \n <color=#FF0000>Germany</color> \n <color=#0D00FF>Allies</color> \n <color=#D41338>Soviet Union</color> \n <color=#FF00D9>Finland</color>" +
-                " \n <color=#7BE558>China</color> \n <color=#EAD830>Japanese Empire</color> ";
+            sides.text = " Sides: \n <color=#0D00FF>Allied Powers</color> \n <color=#FFFFFF>Neutral Countries</color> ";
 
             reportText.text = " Press R to toggle Mission Report";
         }
