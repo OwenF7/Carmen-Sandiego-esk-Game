@@ -20,10 +20,46 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sept 1 1940.unity
     guid: 39d892fcb72358548ad2f912666f060a
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Jun 1 1941.unity
+    guid: 1b162c0f67502704db7652e7c7b921bc
+  - enabled: 1
+    path: Assets/Scenes/Dec 1 1941.unity
+    guid: 6dfe80141d4aa624f86f99afcc46167b
+  - enabled: 1
+    path: Assets/Scenes/Mar 1 1942.unity
+    guid: 9178ce3cbe5a8924aa44761b1746e8b4
+  - enabled: 1
+    path: Assets/Scenes/Dec 1 1942.unity
+    guid: cbae4b013f29dc8408c0d0181a71985f
+  - enabled: 1
+    path: Assets/Scenes/Mar 1 1943.unity
+    guid: 296d9f2e65cde1d4e83fadeebf805efe
+  - enabled: 1
+    path: Assets/Scenes/Dec 1 1943.unity
+    guid: c2b8927e7cd0fdc408b0be29afdbdec8
+  - enabled: 1
+    path: Assets/Scenes/Mar 1 1944.unity
+    guid: 96ab35e23a80e484a823bb8951f33585
+  - enabled: 1
+    path: Assets/Scenes/Dec 1 1944.unity
+    guid: cfd216f9d9b22184c97597d09fa4ddb2
+  - enabled: 1
+    path: Assets/Scenes/Mar 1 1945.unity
+    guid: da8926cebbb7bf3469a8c05249217f87
+  - enabled: 1
+    path: Assets/Scenes/Jun 1 1945.unity
+    guid: a92d4173a31ea2c4db9fa75642f35608
+  - enabled: 1
+    path: Assets/Scenes/Aug 15 1945.unity
+    guid: a06d119ffc737264a83bbb5050ca0d09
+  - enabled: 1
+    path: Assets/Scenes/Sept 2 1945.unity
+    guid: 206a437940e49af469ffb26c1c8ff127
+  - enabled: 1
+    path: Assets/Scenes/Oct 25 1945.unity
+    guid: 9fc4a5c00a2e1e6488d900c467cdb920
+  - enabled: 1
+    path: Assets/Scenes/Ending Choices.unity
+    guid: 25d05410349be0d48818c5bb038555e7
   m_configObjects: {}
