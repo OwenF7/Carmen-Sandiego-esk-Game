@@ -117,7 +117,7 @@ public class RaycastingCrosshair : MonoBehaviour
                 if (hit.transform.tag == "Sept 1939")
                 {
                     intel.text = " Country: Germany \n Capital: Berlin \n Occupation: Germany \n Likelyhood to get caught: High (75%) \n Status: \n \n Ever since Germany has gotten their new leader, the people have been riled up. " +
-                    "We even got intel recently that something is going on with the Jewish people. This might be worth investigating...";
+                    "We recently got intel that something is happening to the Jewish people. This might be worth investigating...";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -179,7 +179,7 @@ public class RaycastingCrosshair : MonoBehaviour
                 if (hit.transform.tag == "Sept 1939")
                 {
                     intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Poland \n Likelyhood to get caught: Medium (30%) \n Status: \n \n We recently got a request for a meeting with some disturbing " +
-                        "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something is coming.";
+                        "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something big is coming.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -207,8 +207,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n We recently got a request for a meeting with some disturbing " +
-                        "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something is coming.";
+                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -241,7 +240,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1939")
                 {
-                    intel.text = " Country: France \n Capital: Paris \n Occupation: Neutral \n Likelyhood to get caught: Low (5%) \n Status: \n \n A meeting request with the French Spies. They are saying it is " +
+                    intel.text = " Country: France \n Capital: Paris \n Occupation: Neutral \n Likelyhood to get caught: Low (5%) \n Status: \n \n French Spies are requesting a meeting. They are saying it is " +
                         "urgent. We probably shouldn't keep them waiting.";
 
                     if (Input.GetKeyDown(KeyCode.E))
@@ -303,7 +302,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1939")
                 {
-                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Neutral \n Likelyhood to get caught: High \n Status: \n \n Italy has been acting suspicious";
+                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Neutral \n Likelyhood to get caught: High \n Status: \n \n Our relations unit has told us that Italy is currently committed to staying neutral. " +
+                        "They seem to doubt that Prime Minister Mussolini will do anything rash, when most of their military equipment is still dated back to the Great War. However, seasoned General Wavell has stated before that " +
+                        "Mussolini is an opportunist. We must tread carefully… If the spy is truly an enemy, perhaps they would go to a place of uncertainty…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -364,8 +365,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1939")
                 {
-                    intel.text = " Country: Spain \n Capital: Madrid \n Occupation: Neutral \n Likelyhood to get caught: Low \n Status: \n \n Spain has declared that they will be staying neutral in this " +
-                        "conflict. They have indicated that they want no part in this war.";
+                    intel.text = " Country: Spain \n Capital: Madrid \n Occupation: Neutral \n Likelyhood to get caught: Low \n Status: \n \n Spain has declared they will remain neutral for the duration of this war. They just " +
+                        "recently ended their civil war, with the Nationalists winning. They are in no place to help either side substantially. Although, perhaps this means it would be a good place to lay low…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -553,7 +554,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1939")
                 {
-                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n After declaring war on Germany, Britain dispatched the " +
+                        "BEF (British Expeditionary Force) to support France. Britain has also received three Modern Destroyers and two Submarines from Poland just before they fell, to strengthen the United Kingdom. " +
+                        "Britain is gearing up for war. As for our spy, it may be a safe option to have agents search the archives and find out where this traitor may have gone to…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -614,7 +617,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Algeria \n Capital: Algiers \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Algeria \n Capital: Algiers \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n Algeria appears to currently be split between two groups. Those supporting the " +
+                        "French and Allies, generally the Natives of the Country, and those seemingly supporting Nazi Germany, generally the colonists, or as the natives would call, pied noirs. We are unsure of what will come to " +
+                        "Algeria, but when there is a spark, there is the possibility of a fire.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -647,7 +652,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Libya \n Capital: Tripoli \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Libya \n Capital: Tripoli \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n Libya has recently been conquered by Italian forces, and appears to be the " +
+                        "stronghold of the Axis Powers in Africa. There appears to be a mix of strong support from Muslim Libyans for the Italian Army, while there are scattered skirmishes throughout by the Savari and " +
+                        "the Spahi trying to oust the Italians. As of right now, we would be hard-pressed to attempt a rebellion so quickly. But, perhaps the reason for such a stronghold is due to information gleaned by this spy…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -680,7 +687,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1941")
                 {
-                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n Turkey has declared that they will remain Neutral, despite being met by both " +
+                        "ambassadors from the Allies, as well as the Axis Powers. It makes some sense due to the last war they were in lasted 11 years (1911-1922), and brought great hardship on its civilians. " +
+                        "President Inonu has stated that, despite their large standing army, they will not engage either side of the conflict. It is well known that they have received ambassadors from many countries, " +
+                        "could the spy be involved?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -835,7 +845,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1941")
                 {
-                    intel.text = " Country: Saudi Arabia \n Capital: Riyadh \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Saudi Arabia \n Capital: Riyadh \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n Saudi Arabia is also somewhat of an enigma, declaring to be Neutral, " +
+                        "but cutting off all ties with Germany. We’ve also heard from President Roosevelt, who is apparently a personal friend of King Abdul Aziz Al-Saud, that they will soon cut all diplomatic " +
+                        "ties with Japan. We have also been fortunate enough to continue trading, receiving large amounts of oil. It may be possible that our spy could try to turn the tide on diplomacy…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -868,7 +880,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Ethiopia \n Capital: Addis Ababa \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Ethiopia \n Capital: Addis Ababa \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n Ethiopia is currently occupied by Italian forces. There have been talks " +
+                        "with Emperor Hailie Selassie about a resistance effort, but nothing has been solidified as of yet. As of now, it would be a semi-dangerous " +
+                        "mission to send spies, but, perhaps it's worth the risk entering new enemy territory.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -901,7 +915,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Sudan \n Capital: Khartoum \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Sudan \n Capital: Khartoum \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Sudan is a staunch ally of the United Kingdom. With the SDF (Sudan Defence Force), " +
+                        "we expect Sudan to be able to hold their ground in the case of an attack. However, they have expressed worry over Libya turning to Germany, and expressed they would not be in a position immediately to " +
+                        "suppress this if the time came. Perhaps the spy came here to report to their master Africa’s situation?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -934,7 +950,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Nigeria has established the NWRF (Nigerian War Relief Fund), to gather volunteers to " +
+                        "develop local support for Britain in the war. Support appears to be popular, and many have signed up to join the war effort. We appreciate the support, and will use it, but Britain is concerned that the " +
+                        "Nigerians don’t fully understand the gravity of the situation…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -995,7 +1013,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Democratic Republic of the Congo \n Capital: Léopoldville \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Democratic Republic of the Congo \n Capital: Léopoldville \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n The Democratic Republic of the Congo is in an " +
+                        "interesting predicament. They want to remain neutral in the conflict, against both Allies’ and Axis Powers’ wishes. Britain has refused the request, and a deal came about that all of the Congo’s raw " +
+                        "materials would go to the Allies. As for manpower, it appears we will not be able to fully expect much. It appeared that the Congo had tried to contact Nazi Germany, attempting to " +
+                        "appeal to neutrality… Perhaps the spy has something to do with it?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
