@@ -55,7 +55,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n Despite Taiwan’s deep past with China, Japan seems to have ingrained " +
+                        "itself deeply into the social lives of Taiwan. The Japanese have fully utilized Taiwan’s material resources in the war effort, and persuaded a large amount of Taiwanese to join the war " +
+                        "effort throughout the war thus far. It appears that out of all Japanese strongholds, Taiwan is one of the strongest.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -83,7 +85,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n Taiwan is the last territory to be given up by the " +
+                        "Japanese to China on October 25th, 1945. The country suffered many losses from the war, including many youths who served in Japan’s army, as well many bombing runs on the " +
+                        "country throughout the war. Much of the Taiwanese Communist Party seemed to escape into the CCP once Taiwan was seized by China after the war. It appears surface level that " +
+                        "Taiwan is in no position at this point to do anything substantial…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -145,7 +150,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: Germany \n Capital: Berlin \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Germany \n Capital: Berlin \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Now that Germany has been completely defeated, " +
+                        "and much of the world turns to Japan, perhaps now might be a good time to see if this mole has any connections within Berlin…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -207,7 +213,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Poland has suffered terribly in this World War. From deportation and execution " +
+                        "of the Jewish people, the largest demographic of Poland. It’s no surprise when the time to strike back against Germany, they had the fourth largest army in the world attacking Nazi Germany. " +
+                        "It will take years, decades, perhaps even a Century, to recoup the losses of their people…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -269,7 +277,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: France \n Capital: Paris \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: France \n Capital: Paris \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Now that France is finally rid of the German War Machine, we are finally back " +
+                        "in full contact with French Spies. The First French Army is preparing to help with the invasion of Western Germany. Although exhausted from leading the French Resistance during their occupation, " +
+                        "French spies are continuing monitoring the mole situation. They’ve reached out to us that they have some information that may be useful in figuring out the allegiance of our mole problem.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -332,7 +342,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Jun 1945")
                 {
-                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Italy has been acting suspicious";
+                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Italy is no longer a threat to the Allies, and from what we’ve been told, " +
+                        "they are set to declare war on Japan. Former Prime Minister Mussolini was also killed Italian Communists. We may be able to find some hints to our mole here…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -430,7 +441,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n The Soviets are pushing hard towards Germany right now. We’ve been " +
+                        "working closer than ever with Stalin and the Red Army to finally rid the war of the Germans. However, it does feel like they are still keeping much behind closed doors. " +
+                        "Perhaps the mole knows something we don’t…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -530,7 +543,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n It seems as though Finland is going to be deemed an ally of Nazi Germany " +
+                        "in the war, and will be subject to bear responsibility with the other Axis Powers  for the war reparations. It is unclear at this point what this means exactly for Finland, " +
+                        "and it is projected that it will be a year or so before agreements can be made.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -593,7 +608,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n With the liberation of France, Britain now finally has a good " +
+                        "distance from the Nazis. Although, at this point, the Axis Powers’ defeat is imminent! It may be worth checking if anything new has been dug up out of the archives about our mole problem…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -727,7 +743,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Jun 1945")
                 {
-                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Turkey, despite maintaining Neutrality throughout the entire war, " +
+                        "has joined the Allies against the Japanese Empire. However, it appears despite such a declaration, they have no plans to help with the invasion. Worthless…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -790,7 +807,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Egypt has continued being a part of the Allies, but has still refused to assist in " +
+                        "greater lengths with the war effort. British command is furious, but at this stage in the war, there is nothing that can really be done…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -823,7 +841,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: Romania \n Capital: Bucharest \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Romania \n Capital: Bucharest \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n It took a coup to dislodge Romania from the Axis Powers. " +
+                        "It’s likely that they would have been taken over swiftly by the Red Army anyways, but, at least in this sense, King Michael I saved Romania mostly from a costly invasion. Even so, " +
+                        "Romania still lost a significant portion of its army to the Soviets. They have declared war on Nazi Germany, and almost immediately after, Romania took the fight to Hungary, one of " +
+                        "Germany’s last allies in Europe. We may be able to glean information about the spy here as it is in the middle of three different conflicts…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -991,7 +1012,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Nigeria played a critical role with India in expelling " +
+                        "Japanese forces from Burma prior to Japan’s eventual surrender.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1130,7 +1152,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Jun 1945")
                 {
-                    intel.text = " Country: Afghanistan \n Capital: Kabul \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Afghanistan \n Capital: Kabul \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n Afghanistan is also no threat at this point in the war, and " +
+                        "they’ve maintained their neutrality throughout this conflict, and we have no reason to believe they will change course. Since the battle of Stalingrad, there have been no mention of previous " +
+                        "plans to take land from British India, nor from the former King Amanullah Khan trying to regain his throne. However, it is odd that nothing has come to Afghanistan during the war. Perhaps there " +
+                        "is something bigger happening behind the scenes…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1195,7 +1220,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Along with Sudan, India has helped to liberate the rest of Africa, " +
+                        "and are currently a major part of the force invading Italy! However, their war still rages on against the Japanese in Burma. It has also been noted that there is a splinter group of the " +
+                        "army that split off from British India, calling themselves, the Indian National army, is helping the Japanese fight against us. So far, British India has done a good job at repelling them, " +
+                        "and unfortunately, we have no additional resources to spare to aid them. They will have to wait out until Germany is defeated, or until the Japanese give up Burma.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1223,7 +1251,8 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n India is celebrating the Allies victory over the Axis Powers. " +
+                        "What is concerning however, is the resurgence of the Quit India Movement, albeit under a different name, their goal is Independence from Britain… Perhaps it is about time.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1363,7 +1392,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n The Philippines are staunch allies of the United States, and " +
+                        "contained many important military bases for the U.S. Since early December, 1941, the Philippines have been a major site of Japanese conquest in the Pacific, mostly to delay and weaken the " +
+                        "United States’ response to Japanese Imperialism in the war. Much of the warfare thus far in the war have been fought with guerilla tactics, and the combat has been brutal. It is possible that " +
+                        "this spy may be moving around from island to island, looking for something…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1391,7 +1423,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n With Japan surrendering, much of the Japanese Empire’s forces are " +
+                        "moving out of the Philippines. There are few groups holding onto resistance, but overall, it appears that they are largely isolated. Now that the Philippines is liberated, perhaps now would " +
+                        "be the time to see if this spy appeared in the Pacific theater.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1424,7 +1458,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: Australia \n Capital: Canberra \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Australia \n Capital: Canberra \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Luckily, so far in the course of the war, there has been no fighting " +
+                        "on the mainland of Australia. Australia has been a great ally to the British Commonwealth being a Colony and helping to fight the Germans early in the war. Since the Japanese conquest expanded " +
+                        "towards Australia, it and the United States changed focus on the Pacific Theater with the goal to drive back the Japanese. As per our informants, we believe that Australia is currently mounting " +
+                        "an offensive on New Guinea, and has already taken parts of it back for the Allies. It may be likely the mole could be working to gather information about a Colony who has yet to see any war on " +
+                        "the mainland, despite being a part of the Allies.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1457,7 +1495,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: New Guinea \n Capital: --- \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: New Guinea \n Capital: --- \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n New Guinea has been a hot spot in the Pacific Theater alongside " +
+                        "the Philippines for Japanese conquest. So far, the main problem the Allies have faced since Japanese occupation, is with the city of Rabaul. It overlooks a major harbor of New Guinea, and " +
+                        "has many natural barriers. It is also ideal as an air base, and with Japanese fortifications, New Guinea has become a sturdy fortress. Much of the Japanese command for the Pacific Theater come " +
+                        "from the city of Rabaul. There are currently talks about the best way to go about taking New Guinea back, and so far, the best option we’ve heard is to neutralize, and lay siege as opposed to " +
+                        "capturing. New Guinea may be largely controlled by the Japanese, but Australia has taken back parts of it. It would be interesting if the spy were to have turned up here…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1490,7 +1532,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n We do not have very much information as of now about the mainland " +
+                        "of Japan. At this point, we believe that Japan is on the path to overextending, so perhaps in the future, we may be able to glean something more. If there was a place the spy wanted to go " +
+                        "to get away, it would be Japan, that’s if they were allied with them. Otherwise, they would be in serious trouble making it there…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1518,7 +1562,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n On this day, September 2nd, 1945, Japan has signed the final papers to " +
+                        "formally surrender to the Allies. A joyous day! With the dropping of the two  atomic bombs on Hiroshima and Nagasaki, the Japanese resistance is crippled. Even its citizens, who were all ready to " +
+                        "fight at a moment's notice, are demoralized. If we are to get any information out of Japan about this mole, now is the time…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1551,7 +1597,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Korea \n Capital: Keijo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Korea \n Capital: Keijo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n Currently, Korea is under control of the Japanese " +
+                        "Empire. Unfortunately, many of our informants were unable to make it back as Japan has an iron grip on the country. We do know that Korea’s Government-in-exile is located in " +
+                        "Shanghai, China, and is working with the Chinese to take back Korea. As of yet, we believe this has largely been unfruitful. It is highly possible that the mole may be in the area, but we are unsure.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1584,7 +1632,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n Manchuria was invaded, and annexed into Japanese territory " +
+                        "all the way back in 1931. Since then, their government has been in exile in China, and was one of the major reasons for war between China and Japan breaking out much earlier than the start of " +
+                        "this current world war. We’ve seen the reports and pictures of the Japanese bombing civilians, and shooting survivors. The Japanese are despicable in their conquests…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1612,7 +1662,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n Japan’s only border between them and the Soviet Union. " +
+                        "Manchuria was taken over by Japan in desperation during the Great Depression of the 1920s. Manchuria served as a lifeline to Japan during this time period… As per the Yalta Conference, " +
+                        "the Soviets are on track to declare war soon after Germany is defeated. If we had to guess, Manchuria will be the first to be conquered. Currently, Manchuria houses one of Japan’s largest armies. " +
+                        "We would be hard pressed getting any information out of here safely.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1645,7 +1698,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n The Second Sino-Japanese War broke out in 1937. Tensions had been " +
+                        "high since the taking of Manchuria in 1931. China prior to the war had been allies with the Soviet Union, and so received much aid for the fight. Once China joined the full war as a member " +
+                        "of the Allies, they received the full support of the United States against the Japanese. Japan has been clawing their way through China, and making some ground, but thus far, the Chinese are " +
+                        "standing their ground more inland. Despite being allies, the current majority ruling government within are Communist, and so they have been largely uncooperative in ways with the British " +
+                        "outside of fighting the Japanese…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1673,7 +1730,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n It didn’t take long after the Soviets destroyed Japan’s main fighting " +
+                        "force, and the United States dropped the two atomic bombs, for Japan to surrender, and finally after eight long years, the Second Sino-Japanese War came to a close. China so far has shown its " +
+                        "military might, and it appears that it will be a world power once the dust and ash settles. However, China is on the verge of a full-country civil war, and so we are unsure of what the result of " +
+                        "such a conflict will be. We sincerely hope the Nationalists party comes out victorious, but, it is unlikely due to the party suffering the most casualties fighting against Japan. " +
+                        "The CCP (Communist Party of China) appears stronger than ever…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
