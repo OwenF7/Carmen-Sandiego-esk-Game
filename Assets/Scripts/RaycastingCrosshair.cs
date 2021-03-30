@@ -55,7 +55,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -83,7 +83,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Allied Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Taiwan \n Capital: Taihoku \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -145,7 +145,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: Germany \n Capital: Berlin \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Germany \n Capital: Berlin \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -207,7 +207,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n We recently got a request for a meeting with some disturbing " +
+                    intel.text = " Country: Poland \n Capital: Warsaw \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n We recently got a request for a meeting with some disturbing " +
                         "accusations. The Prime Minister seemed very on edge in the brief interaction with one of our agents. Something is coming.";
 
                     if (Input.GetKeyDown(KeyCode.E))
@@ -270,7 +270,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: France \n Capital: Paris \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: France \n Capital: Paris \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -331,7 +331,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Jun 1945")
                 {
-                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n Italy has been acting suspicious";
+                    intel.text = " Country: Italy \n Capital: Rome \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Italy has been acting suspicious";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -398,7 +398,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1941")
                 {
-                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allied Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -426,7 +426,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allied Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -520,7 +520,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -553,7 +553,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1939")
                 {
-                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -581,7 +581,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Great Britain \n Capital: London \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -614,7 +614,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Algeria \n Capital: Algiers \n Occupation: Allied Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Algeria \n Capital: Algiers \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -647,7 +647,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Libya \n Capital: Tripoli \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Libya \n Capital: Tripoli \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -708,7 +708,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Jun 1945")
                 {
-                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Turkey \n Capital: Ankara \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -741,7 +741,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1941")
                 {
-                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -769,7 +769,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Dec 1944")
                 {
-                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -802,7 +802,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: Romania \n Capital: Bucharest \n Occupation: Allied Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Romania \n Capital: Bucharest \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -868,7 +868,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Ethiopia \n Capital: Addis Ababa \n Occupation: Axis Alliance \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Ethiopia \n Capital: Addis Ababa \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -901,7 +901,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Sudan \n Capital: Khartoum \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Sudan \n Capital: Khartoum \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -934,7 +934,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1940")
                 {
-                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -962,7 +962,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Nigeria \n Capital: Abuja \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -995,7 +995,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Sept 1940")
                 {
-                    intel.text = " Country: Democratic Republic of the Congo \n Capital: Léopoldville \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Democratic Republic of the Congo \n Capital: Léopoldville \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1028,7 +1028,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1942")
                 {
-                    intel.text = " Country: Yemen \n Capital: Sana'a \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Yemen \n Capital: Sana'a \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1122,7 +1122,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1942")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1150,7 +1150,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1178,7 +1178,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Oct 1945")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1211,7 +1211,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: Burma \n Capital: Nay Pyi Daw \n Occupation: Axis Alliance \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Burma \n Capital: Nay Pyi Daw \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1244,7 +1244,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: Thailand \n Capital: Bangkok \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Thailand \n Capital: Bangkok \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1277,7 +1277,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: French Indochina \n Capital: Saigon \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: French Indochina \n Capital: Saigon \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1310,7 +1310,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1338,7 +1338,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Philippines \n Capital: Manila \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1371,7 +1371,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: Australia \n Capital: Canberra \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Australia \n Capital: Canberra \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1404,7 +1404,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1943")
                 {
-                    intel.text = " Country: New Guinea \n Capital: --- \n Occupation: Axis Alliance \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: New Guinea \n Capital: --- \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1437,7 +1437,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1465,7 +1465,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Sept 1945")
                 {
-                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Allied Powers \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Japan \n Capital: Tokyo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1498,7 +1498,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Korea \n Capital: Keijo \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Korea \n Capital: Keijo \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1531,7 +1531,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1943")
                 {
-                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Alliance \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1559,7 +1559,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Mar 1945")
                 {
-                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Alliance \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Manchuria \n Capital: Hsinking \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1592,7 +1592,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1944")
                 {
-                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allied Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1620,7 +1620,7 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 else if (hit.transform.tag == "Aug 1945")
                 {
-                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allied Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: China \n Capital: Chongqing \n Occupation: Allies \n Likelyhood to get caught: Medium \n Status: \n \n ---";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {

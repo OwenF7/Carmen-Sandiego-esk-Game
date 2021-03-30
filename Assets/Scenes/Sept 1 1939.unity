@@ -170447,6 +170447,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6409451644917282113, guid: ef23384e39b4cc84ba063bda3c0b9880, type: 3}
+      propertyPath: m_text
+      value: "MI6 Memo: 07:30, September 1st, 1939. \\n \\nDirector, \\n \\nSomething
+        big is coming. We\u2019ve received reports that Germany is mobilizing, and
+        the United Kingdom and France won\u2019t stand for it. As the Director of
+        Resources, I expect you will do your job and send our Agents where they need
+        to go. Right now, we need to learn more about the situation. Also, this is
+        to stay Top Secret, between the two of us. I\u2019ve received a warning from
+        the French that we may have a mole within our ranks. Keep your eyes peeled.
+        \\n \\nStay Vigilant, \\n \\nC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6409451644917282113, guid: ef23384e39b4cc84ba063bda3c0b9880, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708853018956519108, guid: ef23384e39b4cc84ba063bda3c0b9880, type: 3}
+      propertyPath: m_text
+      value: War Report
+      objectReference: {fileID: 0}
     - target: {fileID: 7431949101929437676, guid: ef23384e39b4cc84ba063bda3c0b9880, type: 3}
       propertyPath: m_Name
       value: State of War Holder
@@ -170466,7 +170485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4373518787323462284, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_text
-      value: Mission Details
+      value: State of the War
       objectReference: {fileID: 0}
     - target: {fileID: 5993765911421363580, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_IsActive
@@ -170534,11 +170553,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800238591606403641, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_text
-      value: "  07:30, September 1st, 1939. \\n \\n\tSomething big is coming. Find
-        out just what's happening. We've also had reports of a potential information
-        leak in MI6, and as it's current director of resources, I expect you to send
-        our agents to nearby countries to capture this counter-spy. \\n \\n Stay
-        Vigilant, \\n \\n C"
+      value: "MI6 Memo: 07:30, September 1st, 1939. \\n \\nDirector, \\n \\nSomething
+        big is coming. We\u2019ve received reports that Germany is mobilizing, and
+        the United Kingdom and France won\u2019t stand for it. As the Director of
+        Resources, I expect you will do your job and send our Agents where they need
+        to go. Right now, we need to learn more about the situation. Also, this is
+        to stay Top Secret, between the two of us. I\u2019ve received a warning from
+        the French that we may have a mole within our ranks. Keep your eyes peeled.
+        \\n \\nStay Vigilant, \\n \\nC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800238591606403641, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_fontSize
+      value: 42.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800238591606403641, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8075016828643033628, guid: 6ad318e40d182ca4c8facdfbd044da0e, type: 3}
       propertyPath: m_Color.b
