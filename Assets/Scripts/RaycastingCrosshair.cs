@@ -399,7 +399,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1941")
                 {
-                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Soviet Union \n Capital: Moscow \n Occupation: Allies \n Likelyhood to get caught: High \n Status: \n \n After the Axis Powers declared war, and attacked the Soviet Union, " +
+                        "the Red Army formally joined the Allies, with the goal to drive back, and defeat Germany and its allies (With the exception of Japan as they signed a neutrality Pact). As of now, the Nazis are " +
+                        "digging through the Soviet Union, making ground toward Moscow. However, The Red Army’s will to retaliate is far from gone. It is possible that our mole has made their way into the Soviet Union, " +
+                        "but would it really be that obvious?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -460,7 +463,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1941")
                 {
-                    intel.text = " Country: Sweden \n Capital: Stockholm \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Sweden \n Capital: Stockholm \n Occupation: Neutral \n Likelyhood to get caught: Medium \n Status: \n \n Sweden declared a Neutral stance with regards to the war, and there seems " +
+                        "to be no hint at the country changing their position. However, it seems that the Swedes are willing to play both sides of the war passively. They supplied Finland during the Winter War with supplies " +
+                        "to fight the Soviet Union, including weapons and aircraft. We have also heard that Sweden cracked the German’s Geheimfernschreiber Cypher Machine, letting them know their military intentions. " +
+                        "At the same time, Once the Germans attacked the Soviet Union, Sweden allowed the Nazis to go through their territory by train to reach the front lines faster. Sweden seems to be a perfect place " +
+                        "for someone to learn about both the Allies and Axis Powers…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -493,7 +500,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1941")
                 {
-                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Finland \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Finland \n Capital: Helsinki \n Occupation: Finland \n Likelyhood to get caught: Low \n Status: \n \n Finland seems to be in a similar position as Sweden, except they are openly " +
+                        "hostile towards the Soviet Union. However, at the same time, it seems there is just a non-aggression pact between Germany and Finland, and they are not necessarily allies. They appear to be a " +
+                        "wild card in this war. Both of Britain’s raids to support the Soviet Union have been largely unsuccessful against Finland. Perhaps there could be something going on behind the scenes in Finland…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -751,7 +760,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Jun 1941")
                 {
-                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Egypt \n Capital: Cairo \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Egypt has cut all ties from the countries of the Axis Powers since the outbreak " +
+                        "of the war. Egypt has served as a major base for the British in the pursuit of taking back Africa. Although Egypt assisted in defending its homeland, the ruler of Egypt, King Farouk, has said that " +
+                        "outside of Egypt, they would not be participating in any conquests, angering our allies. Does the spy have something to do with King Farouk’s attitude?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1049,7 +1060,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1942")
                 {
-                    intel.text = " Country: Yemen \n Capital: Sana'a \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: Yemen \n Capital: Sana'a \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n Northern Yemen seems to be following an Isolationist Foreign Policy through the " +
+                        "war under King Yahya Muhammad Hamid ed-Din. Half of the country is allied with Italy (Albeit the alliance was made in 1936, four years prior to the start of the war), and the other " +
+                        "half, Aden Protectorate, is under British control. Although the half that is under British control supports the war cause, as of yet, they have done nothing for us to solidify this. " +
+                        "They have acted like a Neutral country since the beginning, and they are showing no signs of changing course. It is unknown what the spy would be doing in Yemen, but perhaps because it " +
+                        "is unknown, that is precisely the reason they could be there…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1082,7 +1097,12 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1942")
                 {
-                    intel.text = " Country: Afghanistan \n Capital: Kabul \n Occupation: Neutral \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Afghanistan \n Capital: Kabul \n Occupation: Neutral \n Likelyhood to get caught: High \n Status: \n \n Afghanistan has sustained neutrality in the war thus far. However, " +
+                        "our informants have told us that there have been talks between Afghanistan and Germany, asking if they can have some of British India territory should they win the war. Despite pressure from the " +
+                        "Allies, Afghanistan is sustaining this friendly relationship. So far, Afghanistan has made no moves toward either side, and so until they do, it would be in our interest to let them stay Neutral. " +
+                        "It has also come to our attention that the former King of Afghanistan, Amanullah Khan, is working as an agent of Nazi Germany, with the goal of gaining help from the Nazis to regain his throne. " +
+                        "Perhaps this is why Afghanistan is staying friendly… Regardless, it is very possible that our mole would be mettling with Afghanistan. Any country would want Afghanistan as their own. If anytime " +
+                        "was the right time to scout out the area, it would be now.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1143,7 +1163,11 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Mar 1942")
                 {
-                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n ---";
+                    intel.text = " Country: India \n Capital: New Delhi \n Occupation: Allies \n Likelyhood to get caught: Low \n Status: \n \n British India declared war on the Axis Powers the same time as Britain, " +
+                        "and so far, has been one of the greatest assets we could have asked for. We are currently looking at ways to take back Africa, and they will be an invaluable asset to achieve this goal. " +
+                        "However, it seems that India is very divided on their current status as a pawn of Britain. We believe that Indian Independence is unnecessary in the pursuit of defeating the Axis Powers, " +
+                        "and have elected to ignore the request. Talks like that can come later, if, they come back… As for if the spy is here, it is possible. We believe that Japan will be turning its head towards " +
+                        "India soon, so this could be a preliminary to what’s to come.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1232,7 +1256,9 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: Burma \n Capital: Nay Pyi Daw \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n ---";
+                    intel.text = " Country: Burma \n Capital: Nay Pyi Daw \n Occupation: Axis Powers \n Likelyhood to get caught: Medium \n Status: \n \n Japanese forces have defeated the joint forces of China and " +
+                        "Britain and conquered the British colony of Burma. Due to Japan rapidly reinforcing their hold of Burma with the help of their new ally, Thailand, British had to leave Burma and return to India. " +
+                        "Now under the strict thumb of Japan, the colony now serves as a hub for continuing Japanese expansion towards India and beyond.";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1265,7 +1291,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: Thailand \n Capital: Bangkok \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: Thailand \n Capital: Bangkok \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n Due to Japan using Thailand as a foothold to invade Burma, " +
+                        "Allies retaliated and bombed Bangkok, the capital of Thailand. In retaliation, Thailand declared war on the Allies, and officially allied themselves with Japan. However, in September, " +
+                        "great floods plagued Thailand, destroying much of the rice fields in the country. Instead of Rice, the Thai government told its civilians to eat noodles instead. We believe that it is " +
+                        "possible the spy made its way to Thailand in order to learn more about the situation in the East, or perhaps they were there to try out the new ‘Pad Thai’ Thailand had come up with…";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
@@ -1298,7 +1327,10 @@ public class RaycastingCrosshair : MonoBehaviour
 
                 if (hit.transform.tag == "Dec 1942")
                 {
-                    intel.text = " Country: French Indochina \n Capital: Saigon \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n ---";
+                    intel.text = " Country: French Indochina \n Capital: Saigon \n Occupation: Axis Powers \n Likelyhood to get caught: High \n Status: \n \n As soon as France was defeated by Germany, French Indochina " +
+                        "was controlled by the German-backed Vichy government. Once the Japanese came and occupied the region, there was little to no resistance. We’ve seen no notion of any resistance in the French Colony, " +
+                        "and due to it being behind Burma at this time, there is no way for us to liberate them anytime soon without first making ground on Burma. However, we have heard of a curious fellow named Ho Chi Minh, " +
+                        "setting seeds for a Communist Revolution. Perhaps the spy may be involved?";
 
                     if (Input.GetKeyDown(KeyCode.E))
                     {
