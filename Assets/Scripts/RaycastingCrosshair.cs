@@ -76,7 +76,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Once the spy entered Taiwan, they seemed to have disappeared with the wind. They definitely did not seem to be allied with the Taiwanese, " +
+                                "but they certainly seemed like they had a place to go. However, as we were searching undercover, we got a message from French Resistance that the spy has been spotted in Europe.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -107,7 +108,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We tracked the spy all the way to Taiwan, this time, with more forces in tow. Just as we finally got the drop on and surrounded them, the spy spoke nothing, but smiled. " +
+                                "He quickly pulled a pistol out, and before we could stop them, they fired, ending their own life. On their corpse, we found nothing that could be of any use for evidence. " +
+                                "However, it is clear that Taiwan was their final resting place, and base of operations after finding a secret bunker behind a cliff.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -141,7 +144,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears that a vague communication was made with a Nation that just got out of a Civil War. It is signed with an R.A. It might be worth it to check it out…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -170,7 +173,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears the spy staked out in Western Germany, and met with others. Unfortunately, we were unable to make out their identities. " +
+                                "They shook hands at the end of the meeting, and it seems they are heading back into Asia…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -204,7 +208,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "As the meeting with the Prime Minister progressed, it’s clear that Germany’s intent is to conquer Poland. However, the Prime Minister also hinted that " +
+                                "something else may be lurking in the shadows behind the Nazi invasion. There was no mention of any spy here…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -234,7 +239,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Due to Poland’s current dilemma, and the travesties it has endured, they have seen nothing of the spy. It is unfortunate, but forgivable, considering…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -268,7 +273,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "French Spies report that a mysterious individual just traveled from Britain and through France, toward Spain. This might be a lead on the mole…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -298,7 +303,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "As soon as the spy caught on that they’d been found out, they fled Eastward once again. In their rush, they appeared to drop a Chess Piece, a King, out of their pocket.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -333,7 +338,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, it appears the Spy has not been to Italy recently. There have been no tracks here regarding the mole. It is unknown where they might have gone...";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -362,7 +367,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Although the spy was not spotted in Italy, we have found clues from the Italian Communists, that perhaps our mole may be once again heading to Europe, " +
+                                "into the heart of the destroyed War Machine.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -396,7 +402,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Spain has determined that they are not going to risk their Neutrality with working with us too much. However, behind closed doors, a governmental worker " +
+                                "said they saw the person’s suitcase as they boarded a train. It said, “Sudan.”";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -432,7 +439,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Although the Red Army is on our side in the war, it appears that they have no info on the spy… to share. One of our spies managed to swipe a document " +
+                                "out of the office we were in. It seemed to detail potential spywork in Afghanistan and Yemen. We are still unsure whether the spy is affiliated with the Soviets, " +
+                                "but this may be a good place to start.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -462,7 +471,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "As before, the Soviets kept the possibility of a spy close to the chest, and gave no leeway. " +
+                                "It is certain they are hiding something, but we don’t know at this point just how much…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -499,7 +509,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It seems that the spy stayed in Sweden for quite a long time avoiding us. We finally found the cabin they had stayed in, and it seemed to us that they very " +
+                                "much enjoyed the game of chess…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -534,7 +545,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears that Finland wants nothing to do with us. Both times, Finland has told us to stay out… or else. We took the warning seriously as anything more may jeopardize the mission.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -564,7 +575,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, the spy did not come to Finland. We have lost all sights of them, and it is clear they have no affiliation with Finland.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -599,7 +610,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Reading into the archives and files, we’ve found fifteen individuals who’ve all retired in the last three years. There have been no retirees since then, " +
+                                "and so we can rule out all current agents. Curiously, on seven of their files, we have listed that they have ties to the SDF. It’s a long shot, but it may be a place to start…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -628,7 +640,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "After once again, rummaging through the archives, we’ve found some more information about this mole. " +
+                                "It appears their entire document had been scratched out prior to their retirement. It is shameful that we let this happen… " +
+                                "However, we can tell that the country was at least two words long. We have also just received a report from French Resistance, that the spy has been spotted nearby.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -663,7 +677,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears that the spy may have come through Algeria, but it is uncertain where they may have gone afterwards. In a bar, some locals saw me distressed, " +
+                                "and gave the sage advice, “Perhaps it's best to keep your enemies close, but your friends closer.” I don’t think this is how that advice goes, but I’ll take it to heart.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -698,7 +713,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             //Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears that the spy was in fact here. They escaped before we could close in. We’ve gotten reports that they are going to a " +
+                                "location that has thus far maintained Neutrality towards both sides of the war.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -734,7 +750,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We just missed the spy. However, they seemed to have traveled with ease through the Soviet Union. But, they did not stop there. " +
+                                "It seems that they may have stopped at a “Neutral” country.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -763,7 +780,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We learned nothing from Turkey. They first remained Neutral in this war of conquest waged by the Nazis, and then they finally decided to join the Allies against Japan, " +
+                                "and then plan to do nothing besides the formal declaration… And now they say they know nothing of the spy… Director, I must ask that you speak to C. about this. It is disgraceful.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -798,7 +816,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Staying as true as Egypt says, they are not cooperating with finding said spy. We are in the dark whether the spy stopped here or not…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -827,7 +845,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We learned no more valuable information from Egypt. The only saving grace of this mission is that French Resistance has notified us that the spy has been spotted in Europe again.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -863,7 +881,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It seems that the Spy has passed through Romania recently, and is continuing Eastward.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -898,7 +916,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy has definitely stopped here, but did not stay long. King Abdul Aziz Al-Saud has said he received a report a " +
+                                "few weeks ago regarding a non-native traveling out of the country, going northward.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -933,7 +952,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, there have been no sightings of the spy in Ethiopia, and the Emperor has said there have been no reports on his side. All we can do is trust him, and continue searching on…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -968,7 +987,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Just as we have caught up, it appears that the spy left, presumably to a country controlled by the Axis Powers. If they wanted to get some distance from us, " +
+                                "it makes sense for them to get to the most heavily fortified area.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1003,7 +1023,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, besides getting some relief from the NWRF, there have been no signs of the spy. We are in the dark where they may have gone next.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1032,7 +1052,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Despite Nigeria playing an important role in expelling the Japanese, it is clear that the spy is not here.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1068,7 +1088,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The Democratic Republic of the Congo is in an interesting predicament. They want to remain neutral in the conflict, against both Allies’ and Axis Powers’ wishes. " +
+                                "Britain has refused the request, and a deal came about that all of the Congo’s raw materials would go to the Allies. As for manpower, it appears we will not be able to fully " +
+                                "expect much. It appeared that the Congo had tried to contact Nazi Germany, attempting to appeal to neutrality… Perhaps the spy has something to do with it?";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1105,7 +1127,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We believe the spy made their way through Yemen, although, it is uncertain what their goal was here. It seems that the country " +
+                                "the spy went to next just recently declared war on the United Kingdom and the United States.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1143,7 +1166,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Our scouts have reported that the spy we’ve been tracking has scouted out Afghanistan, but, not been in contact with the Government. " +
+                                "In a scrap of paper left behind in the mole’s camp, only three words were legible, ‘Italy of Asia.’";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1174,7 +1198,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy once again returned to Afghanistan, presumably to survey the land. However, we were unable to find out much more as the spy found out we’d been " +
+                                "following them. Quickly, they fled North-West through the expansive region of the Soviet Union. Although, it appears they did not stop in Russia… Perhaps they went " +
+                                "to the end of the Soviet’s European conquest?";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1211,7 +1237,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, it seems that there is no trace of the spy in India, and so we can conclude that they have not much in stake with India as of the moment.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1242,7 +1268,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Upon checking in India again for the possibility of our mole, we have concluded that they did not come this way… again. We have nothing else to report.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1271,7 +1297,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Well, despite seeing him on the Southern Coastline of Asia, it appears that the spy did not travel into India. There is more than one country on the Southern Coastline of Asia.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1306,7 +1332,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, it seems that if the spy did go through Burma, they left no trace of stopping anywhere specific. We imagine they are going to the Pacific.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1342,7 +1368,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It appears that the spy left Thailand in a hurry towards the Pacific. It seems that the forces stationed within Thailand were unaware of the " +
+                                "spy within their ranks. But, from looking at the ship they stowed away on, we believe they are going towards the fighting in the Pacific, most likely where many U.S. bases are located…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1378,7 +1405,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It looks like the spy did not stay long in the territory of French Indochina. But, it appears they did meet briefly with a man named Ho Chi Minh. " +
+                                "The purpose of this meeting is unknown at the time, but the last we saw of them, the spy was heading towards Thailand, mostly likely to board a ship going to the Pacific.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1414,7 +1442,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We finally got a good look at the spy. They were tall, and with a broad build. But, as we managed to catch up, they spoke quickly, in what sounded like a " +
+                                "raspy Russian accent. Before we could question them, they managed to escape onto a Japanese vessel without alerting the Japanese. It appears that they are on their way to Asia. " +
+                                "Asking around, it seemed that it was on course to pick up more of what the Japanese called, ‘Comfort Women.’";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1444,7 +1474,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "We do not believe the spy has come back to the Philippines, however, we have been notified that they were last spotted on the Southern Coastline of Asia…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1481,7 +1511,9 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "A report from the Front lines in the Pacific Theater suggest that a person, not affiliated with Japan, nor ourselves, has been island hopping. When approached, " +
+                                "the man ignored and did not speak. Before we could capture them, they escaped onto a Japanese vessel without alerting the Japanese. It seems that the boat is heading back to Asia, " +
+                                "presumably to a stronghold of the Japanese.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1518,7 +1550,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Unfortunately, with the amount of fighting in New Guinea, we were hard pressed to find any information on this spy. However, we can say that it is probably likely " +
+                                "the mole did not stay in the Pacific for very long, and more than likely traveled back to Asia…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1553,7 +1586,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy did not come to Japan. Chances are, it was too much of a risk for them. We barely got lucky enough to make it out without being spotted…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1583,7 +1616,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Since the surrender of Japan, infiltration has never been easier. We see that the spy did indeed come here. Although, before they did anything, " +
+                                "they noticed they were being followed, and fled out of the country. At this point, it seems their only safe place left is the last place that has yet to be given over to the Allies…";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1618,7 +1652,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy has certainly been here undercover. As for the reason, we are still unsure. However, we do know that they left soon after, " +
+                                "leaving behind evidence suggesting they are going to a Communist Country.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1653,7 +1688,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy did stop briefly in Manchuria. It seems that it was taking a look at Japan’s Kwantung Army, the largest standing Army Japan currently has. " +
+                                "The spy left soon after, heading South-West.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1684,7 +1720,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "The spy did not return to Manchuria, and it seems there was no point in coming back.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1721,7 +1757,8 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "It is certain the spy came to China. It seemed they were traveling more South, almost back to the Pacific, but not quite. " +
+                                "They seemed to sneak a lot more carefully than they have for the past four years.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
@@ -1753,7 +1790,7 @@ public class RaycastingCrosshair : MonoBehaviour
                         {
                             Debug.Log("Successful Report should appear");
 
-                            report.text = "Spies did not get caught.";
+                            report.text = "Returning to China, we’ve seen reports from the Chinese Nationalists that a Communist has snuck through, and is continuing Eastward in Asia.";
                         }
 
                         levelLoader.GetComponent<LevelLoader>().LoadNextLevel();
